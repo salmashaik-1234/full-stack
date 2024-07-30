@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Complex Form Layout</title>
+</head>
+<body>
+	<form>
+		<table border="1" width="100%">
+			<tr>
+				<td width="50%">
+					<table border="1" width="100%">
+						<tr>
+							<td><input type="text" name="first_name" placeholder="First Name"></td>
+							<td><input type="text" name="last_name" placeholder="Last Name"></td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<select name="country">
+									<option value="">Select Country</option>
+									<option value="USA">USA</option>
+									<option value="Canada">Canada</option>
+									<option value="Mexico">Mexico</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<ul>
+									<li>Item 1</li>
+									<li>Item 2</li>
+									<li>Item 3</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td width="50%">
+					<ul>
+						<li>Option 1</li>
+						<li>Option 2</li>
+						<li>Option 3</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td><textarea name="comments" placeholder="Comments"></textarea></td>
+				<td>
+					<input type="submit" value="Submit">
+					<input type="reset" value="Reset">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
